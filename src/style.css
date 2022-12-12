@@ -94,7 +94,7 @@ body {
 .option {
     height: fit-content;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .picture {
     border: 5px solid white;
@@ -102,6 +102,9 @@ body {
 }
 .option:hover {
     scale: 1.1;
+}
+.option:active {
+    scale: 1;
 }
 .contactCard {
     height: 80%;
