@@ -4,7 +4,7 @@
     color: white;
     --header-footer: rgb(252, 155, 169);
     --menus-hover: rgb(250, 117, 137);
-    --card-bc: rgba(252, 155, 169, 0.9)
+    --card-bc: rgba(252, 155, 169, 0.95)
 }
 
 body {
@@ -66,6 +66,7 @@ body {
     align-items: center;
     padding: 50px;
     text-align: center;
+    border-radius: 50px;
 }
 
 .headline {
@@ -83,6 +84,8 @@ body {
     padding: 20px;
     text-align: center;
     font-weight: 600;
+    border-radius: 50px;
+
 }
 .option {
     height: fit-content;
@@ -102,8 +105,10 @@ body {
     background-color: var(--card-bc);
     display: flex;
     flex-direction: column;
-    justify-content: centerw;
+    justify-content: center;
     align-items: center;
+    border: 5px solid white;
+    border-radius: 50px;
 }
 .mp {
     height: 400px;
