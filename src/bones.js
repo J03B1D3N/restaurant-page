@@ -25,7 +25,7 @@ header.appendChild(mainSection)
 header.appendChild(menuSection)
 header.appendChild(contactSection)
 
-mainSection.classList.add('main')
+mainSection.classList.add('home')
 menuSection.classList.add('menu')
 contactSection.classList.add('contact')
 
