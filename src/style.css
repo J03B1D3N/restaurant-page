@@ -96,6 +96,11 @@ body {
 .option:hover {
     scale: 1.1;
 }
+.contactCard {
+    height: 80%;
+    width: 80%;
+    background-color: var(--card-bc);
+}
 
 #footer {
     background-color: var(--header-footer);
