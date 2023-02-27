@@ -4,7 +4,8 @@
     color: white;
     --header-footer: rgb(252, 155, 169);
     --menus-hover: rgb(250, 117, 137);
-    --card-bc: rgba(252, 155, 169, 0.95)
+    --card-bc: rgba(252, 155, 169, 0.95);
+    --animation-timer: 0.7s;
 }
 
 body {
@@ -60,6 +61,7 @@ body {
     align-items: center;
 }
 .homeCard {
+    animation-duration: var(--animation-timer);
     height: 70%;
     width: 50%;
     background-color: var(--card-bc);
@@ -77,6 +79,7 @@ body {
     font-size: 2rem;
 }
 .menuCard {
+    animation-duration: var(--animation-timer);
     height: 80%;
     width: 80%;
     background-color: var(--card-bc);
@@ -107,6 +110,7 @@ body {
     scale: 1;
 }
 .contactCard {
+    animation-duration: var(--animation-timer);
     height: 80%;
     width: 80%;
     background-color: var(--card-bc);

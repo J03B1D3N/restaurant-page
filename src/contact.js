@@ -2,7 +2,7 @@ import maps from './pictures/maps.png'
 
 export function contact() {
     const contactCard = document.createElement('div')
-    contactCard.classList.add('contactCard')
+    contactCard.setAttribute('class', 'contactCard animate__fadeIn')
     main.appendChild(contactCard)
     const mp = new Image()
     mp.src = maps;

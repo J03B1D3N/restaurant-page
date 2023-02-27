@@ -14,7 +14,7 @@ export function menu() {
     const y = 220
     const space = ' ';
     const menuCard = document.createElement('div')
-    menuCard.classList.add('menuCard')
+    menuCard.setAttribute('class', 'menuCard animate__fadeIn')
 
     function addOption(name, source) {
         const option = document.createElement('div')
